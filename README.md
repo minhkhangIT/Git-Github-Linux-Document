@@ -1,4 +1,4 @@
-# Git-and-Github
+# Git,Github and Linux 
 Sumary of Git and Github command line
 
 https://rogerdudler.github.io/git-guide/
