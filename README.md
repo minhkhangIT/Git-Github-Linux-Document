@@ -4,52 +4,52 @@ Sumary of Git and Github command line
 https://rogerdudler.github.io/git-guide/
 https://www.notion.so/zarkom/Introduction-to-Git-ac396a0697704709a12b6a0e545db049
 
-1) git config
+### git config
 - show git user name: git config user.name
 - show git user email:  git config user.email
 - set git user name: git config --global user.name "tên cc gì đó"
 - set git user email: git config --global user.name tênemail
 - open help to see more command: git config --help
 
-2) git init
+### git init
 -> initialize a repository
 
-3) git status
+###  git status
 -> check change in files since last commit
 
-4) git add
+### git add
 - thêm file vào stage để chuẩn bị commit: git add tênfile (git add text1.txt)
 + add all file with the txt extension: git add *txt
 
-5) git commit
+### git commit
 -> save snapshot: git commit -m "message"
 - skip stage area: git commit -am "message"
 
-6) git ls-files
+### git ls-files
 - show information about files in the index and the working tree
 
-7) git rm 
+### git rm 
 - delete file (still need to commit to 100% delete): git rm tenfile
 
-8) git log
+### git log
 -> view history of commit
 - git log --author=tenauthor: view history of commit of specific author
 
-9) git clone
+### git clone
 - create a working copy of a local repository: git clone duonglink 
 
-10) git branch
+### git branch
 -> check all branches
 - git branch ten_branch: create new branch
 - git checkout ten_branch: move HEAD to different branch
 
-11) git restore
+### git restore
 - remove files from stage before commit: git restore --staged filename
 
-12) git checkout
+### git checkout
 - return to the git commit hash : git checkout commit-hash (git checkout 2ac7e955f9a53b0b67de6d492f8492e868eea41e)
 -> git checkout master: move HEAD back to master
 
-Linux:
+## Linux:
 - rm file_name: delete the file (rm file1.txt)
--  
+
