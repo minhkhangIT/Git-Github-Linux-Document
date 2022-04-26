@@ -20,6 +20,7 @@ https://www.notion.so/zarkom/Introduction-to-Git-ac396a0697704709a12b6a0e545db04
 ### git add
 - thêm file vào stage để chuẩn bị commit: git add tênfile (git add text1.txt)
 + add all file with the txt extension: git add *txt
++ add all file: git add --all (toàn bộ files trong toàn bộ folder)
 
 ### git commit
 -> save snapshot: git commit -m "message"
