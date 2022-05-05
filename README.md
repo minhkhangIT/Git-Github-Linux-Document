@@ -51,6 +51,10 @@ https://www.notion.so/zarkom/Introduction-to-Git-ac396a0697704709a12b6a0e545db04
 - return to the git commit hash : git checkout commit-hash (git checkout 2ac7e955f9a53b0b67de6d492f8492e868eea41e)
 -> git checkout master: move HEAD back to master
 
+### git reflog
+- toàn bộ lịch sử git
+- git checkout HEAD@{...} (trong 3 chấm điền số) để quay lại
+
 ## Linux:
 - rm file_name: delete the file (rm file1.txt)
 
