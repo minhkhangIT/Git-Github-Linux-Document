@@ -55,6 +55,11 @@ https://www.notion.so/zarkom/Introduction-to-Git-ac396a0697704709a12b6a0e545db04
 - toàn bộ lịch sử git
 - git checkout HEAD@{...} (trong 3 chấm điền số) để quay lại
 
+### git push (up code lên github)
+- git branch main
+- git remote add origin https://github.com/minhkhangIT/cvgh.git (cái link của git)
+- git push -u origin main
+
 ## Linux:
 - rm file_name: delete the file (rm file1.txt)
 
